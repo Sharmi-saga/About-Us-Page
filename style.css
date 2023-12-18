@@ -1,0 +1,273 @@
+*{
+   margin: 1px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+nav {
+    width: 99.5%;
+    Height: 65px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#930707,#470707);
+    border-radius: 16px;
+}
+
+
+nav .logo{
+
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 0.9px;
+    cursor: pointer;
+    color: white;
+}
+
+nav ul{
+    float: right;
+    
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+
+nav li a { 
+    font-size: 18px;
+    padding: 6px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.content-items img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position:center;
+
+}
+
+.para{
+	text-align: center;
+	margin-top:rem;
+    color: white;
+	top: 50%;
+	left: 30%;
+    right: 7%;
+    font-size: 1.5rem;
+    position: absolute;
+   
+  
+}
+
+.heading{
+    color: aliceblue;
+    margin: auto;
+    font-size: 1rem;
+	position: absolute;
+    margin-top: 10%;
+    text-align: center;
+    left: 30%;
+    right: auto;
+    
+
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    font-family: 'poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+}
+.wrapper h1{
+    font-size: 3em;
+
+    margin: 25px;
+}
+.content-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.card{
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+}
+.card i{
+    margin: 20px;
+    color: #581ed6;
+}
+.card h2{
+    margin-bottom: 90px;
+    margin-top: 1%;
+    font-weight: 400;
+    text-align: center;
+    color: #c80b0b;
+}
+.card p{
+    color: #6c757d;
+    text-align: center;
+}
+/* .card:hover i,
+.card:hover p{
+    color: #fff;
+}
+.card:hover h2{
+    font-weight: 600;
+} */
+
+
+@media(max-width:991px){
+    .wrapper{
+        padding: 25px;
+    }
+    .wrapper h1{
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+    .content-box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        min-width: 300px;
+        margin: 10px auto;
+    }
+}
+
+.H
+    {
+       
+        outline: #af2108 solid 7px;
+        margin: auto;  
+        padding: 15px;
+        text-align: center;
+        border-radius: 25px;
+        border: 2rem
+      }
+.pp{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: none
+    ;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrappers {
+  max-width: 75%;
+  margin: auto;
+}
+
+.wrappers > p,
+.wrappers > h1 {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.wrappers > h1 {
+  letter-spacing: 3px;
+}
+
+.accordion {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  font-size: 2rem;
+  width: 100%;
+  padding: 2rem 2.5rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.accordion i {
+  font-size: 1.6rem;
+}
+
+.active,
+.accordion:hover {
+  background-color: #f1f7f5;
+}
+.pannel {
+  padding: 0 2rem 2.5rem 2rem;
+  background-color: white;
+  overflow: hidden;
+  background-color: #f1f7f5;
+  display: none;
+  font-size: 2rem;
+}
+.pannel p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.faq {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+}
+.faq.active {
+  border: none;
+}
+
+.nav-toggle-btn {
+    background-image: linear-gradient(#930707,#470707);
+}
+
+.button {
+    background-color: #aa0c04;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+ 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .header-top{
+    background-color: red;
+  }
